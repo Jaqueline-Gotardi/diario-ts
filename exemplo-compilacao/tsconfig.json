@@ -1,0 +1,5 @@
+{
+    "CompilerOptions": {
+        "target": "ES2016"
+    }
+}
