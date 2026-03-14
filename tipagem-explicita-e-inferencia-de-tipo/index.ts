@@ -1,4 +1,4 @@
-// Tipagem Explícita: Quando atribuo o tipo
+// Tipagem Explícita: Quando atribuo o tipo 
 /* let nome:  string = "Jaqueline";
 nome = 123; */
 
