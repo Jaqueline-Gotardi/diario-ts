@@ -31,7 +31,7 @@ function responderEmail(recipient: string, userResponse: UserResponse): void {
 responderEmail("Jaqueline", UserResponse.Yes) */
 
 
-//ATRBUIR VALORES PARA CADA ELEMENTO
+//ATRIBUIR VALORES PARA CADA ELEMENTO
 /* enum TradeType {
     ACAO = 9281,
     TESOURO_DIRETO = 3221,
@@ -50,7 +50,7 @@ StatusCodes.OK */
 
 
 
-//PARA GENÊROS
+//PARA GÊNEROS
 /* enum Gender {
     M = "Masculino",
     F = "Feminino",
@@ -64,5 +64,7 @@ enum StatusCodes {
 }   
 
 const ok = StatusCodes.OK; //200
+//ou
 const indexOk = StatusCodes["OK"]; //200
+
 const stringBadRequest = StatusCodes[400]; //BadRequest
