@@ -7,3 +7,6 @@ function sum(number1:number, number2:number) {
 }
 console.log(sum(10,20))
 //console.log(sum("10",20))
+
+
+//any -> aceita qualquer tipo, seja string, number, etc. . .
