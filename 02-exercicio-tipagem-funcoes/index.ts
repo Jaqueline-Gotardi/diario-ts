@@ -1,14 +1,3 @@
-function declararNumber(number1: number, number2: number) : number {
-    return number1 + number2;
-}
-const resultado = declararNumber(10, 20)
-console.log(resultado)
-
-
-
-
-
-
 /* # Exercício - Tipagem de funções em TypeScript
 
 Neste exercício, você vai praticar a **declaração de funções** com **tipagem explícita** em **TypeScript**, garantindo mais segurança e clareza no seu código. O desafio consiste em criar uma função que receba parâmetros numéricos, realize uma operação simples e retorne o resultado corretamente tipado.
@@ -26,3 +15,9 @@ Neste exercício, você vai praticar a **declaração de funções** com **tipag
 - Defina também o tipo de retorno como `: number`.
 - Chame a função passando dois números inteiros de sua escolha.
 - Use `console.log` para mostrar o resultado da soma.*/
+
+function declararNumber(number1: number, number2: number) : number {
+    return number1 + number2;
+}
+const resultado = declararNumber(10, 20)
+console.log(resultado)
