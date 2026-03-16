@@ -1,3 +1,4 @@
+//TIPAGEM DE PARÂMETROS
 /* function greet(name: string) {
     console.log(`Olá, ${name}!`)
 }
@@ -6,9 +7,9 @@ greet("Jaque"); */
 
 
 
-//OUTRO EXEMPLO DE TIPAGEM EM FUNÇÕES
-function doubleNumber(number: number) : number {
+//TIPAGEM DE RETORNO
+/* function doubleNumber(number: number) : number {
     return number * 2;
 }
 const resultado = doubleNumber(3)
-console.log(resultado);
+console.log(resultado); */
