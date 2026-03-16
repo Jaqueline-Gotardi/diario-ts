@@ -7,10 +7,10 @@ let nomes: string[] = [ "Jaque", "Ribeiro", "Gotardi"] //nomes
 let idades: Array<number> = [12, 22, 39] //generics para arrays de números
 let obj: any = {x:0}; //any significa "qualquer tipo", mas não é mto recomendável usar! */
 
-function imprmirCoordenadas(pt: { x:number; y:number }) { //pt => parâmetro
+function imprimirCoordenadas(pt: { x:number; y:number }) { //pt => parâmetro
     console.log("The coordinate's x value is " + pt.x);
     console.log("The coordinate's y value is " + pt.y);
 }
-imprmirCoordenadas({x: 3, y: 7})
+imprimirCoordenadas({x: 3, y: 7})
 
 let obj: { x:number; y:number } = { x:3, y:7};

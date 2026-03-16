@@ -37,3 +37,5 @@ enum MetodoPagamento {
 }
 var PagamentoEscolhido : MetodoPagamento = MetodoPagamento.Pix
 console.log(`O método de pagamento é ${PagamentoEscolhido}`)
+
+//detalhe: o ":" significa tipo
