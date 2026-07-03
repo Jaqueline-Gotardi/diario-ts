@@ -1,0 +1,7 @@
+//Este arquivo é o tsconfig.json, que é o arquivo de configuração do TypeScript. Ele é usado para configurar as opções do compilador TS.
+{ 
+  "compilerOptions": 
+  {
+  "noImplicitAny": true,
+  }
+}
